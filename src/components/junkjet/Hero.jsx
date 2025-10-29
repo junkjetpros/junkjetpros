@@ -60,7 +60,9 @@ export default function Hero() {
 
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="tel:4695550149" onClick={handleCallClick}>
+              <a href="tel:4695550149" 
+              // onClick={handleCallClick}
+              >
                 <Button
                   size="lg"
                   className="w-full sm:w-auto bg-[#00C2A8] hover:bg-[#00a890] text-white text-lg px-8 py-6 shadow-lg shadow-[#00C2A8]/30 transition-all hover:shadow-[#00C2A8]/50 hover:scale-105">
