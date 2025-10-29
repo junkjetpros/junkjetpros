@@ -4,15 +4,15 @@ import { Phone, MessageSquare, CheckCircle2 } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function Hero() {
-  const handleCallClick = () => {
-    // Track GA4 event
-    if (window.gtag) {
-      window.gtag('event', 'jj_tel_click', {
-        event_category: 'engagement',
-        event_label: 'hero_call_button'
-      });
-    }
-  };
+  // const handleCallClick = () => {
+  //   // Track GA4 event
+  //   if (window.gtag) {
+  //     window.gtag('event', 'jj_tel_click', {
+  //       event_category: 'engagement',
+  //       event_label: 'hero_call_button'
+  //     });
+  //   }
+  // };
 
   return (
     <section className="relative bg-gradient-to-br from-[#101820] via-[#1a2633] to-[#101820] text-white overflow-hidden">
